@@ -14,6 +14,11 @@ int main()
         index++;
     }
 
+    index = 6;
+    
+    do{
+        cout << index << endl;
+    } while (index <= 5);
 
     return 0;
 }
